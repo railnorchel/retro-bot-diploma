@@ -1,0 +1,16 @@
+.venv/
+venv/
+
+.idea/
+
+__pycache__/
+*.pyc
+
+*.db
+*.db-journal
+
+config_local.py
+.env
+
+.DS_Store
+Thumbs.db

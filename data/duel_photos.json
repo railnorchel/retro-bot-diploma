@@ -1,0 +1,66 @@
+{
+  "messi": {
+    "photo": "footphoto/messi.jpg",
+    "fullname": "Лионель Месси"
+  },
+  "ronaldo": {
+    "photo": "footphoto/ronaldo.jpg",
+    "fullname": "Криштиану Роналду"
+  },
+  "neymar": {
+    "photo": "footphoto/neymar.jpg",
+    "fullname": "Неймар"
+  },
+  "mbappe": {
+    "photo": "footphoto/mbappe.jpg",
+    "fullname": "Килиан Мбаппе"
+  },
+  "ramos": {
+    "photo": "footphoto/ramos.jpg",
+    "fullname": "Серхио Рамос"
+  },
+  "forlan": {
+    "photo": "footphoto/forlan.jpg",
+    "fullname": "Диего Форлан"
+  },
+  "coutinho": {
+    "photo": "footphoto/coutinho.jpg",
+    "fullname": "Филиппе Коутиньо"
+  },
+  "griezmann": {
+    "photo": "footphoto/griezmann.jpg",
+    "fullname": "Антуан Гризманн"
+  },
+  "modric": {
+    "photo": "footphoto/modric.jpg",
+    "fullname": "Лука Модрич"
+  },
+  "kante": {
+    "photo": "footphoto/kante.jpg",
+    "fullname": "Н’Голо Канте"
+  },
+  "henry": {
+    "photo": "footphoto/henry.jpg",
+    "fullname": "Тьерри Анри"
+  },
+  "balotelli": {
+    "photo": "footphoto/balotelli.jpg",
+    "fullname": "Марио Балотелли"
+  },
+  "pepe": {
+    "photo": "footphoto/pepe.jpg",
+    "fullname": "Пепе"
+  },
+  "rivaldo": {
+    "photo": "footphoto/rivaldo.jpg",
+    "fullname": "Ривалдо"
+  },
+  "debruyne": {
+    "photo": "footphoto/debruyne.jpg",
+    "fullname": "Кевин Де Брюйн"
+  },
+  "levandowski": {
+    "photo": "footphoto/levandowski.jpg",
+    "fullname": "Роберт Левандовский"
+  }
+}

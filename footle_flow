@@ -1,0 +1,63 @@
+// Footle Game Flow
+digraph {
+	rankdir=TB splines=ortho
+	node [fontname="Times New Roman" fontsize=12 shape=box style=rounded]
+	edge [fontname="Times New Roman" fontsize=10]
+	start [label="Старт" shape=oval]
+	user_action [label="Пользователь нажимает кнопку \"Footle\"
+или вводит /footle"]
+	check_session [label="У пользователя уже есть
+активная сессия Footle?" shape=diamond]
+	session_exists [label="Отправить сообщение
+\"У вас уже есть активная игра\""]
+	end [label="Конец" shape=oval]
+	get_word [label="Выбрать случайное слово
+из footle_list.csv"]
+	create_session [label="Создать новую игровую сессию в памяти
+(слово, попытки=[])"]
+	send_board [label="Отрисовать и отправить
+начальное пустое поле"]
+	wait_for_input [label="Ожидание ввода от пользователя"]
+	check_input_type [label="Пользователь прислал
+сообщение-попытку?" shape=diamond]
+	give_up [label="Удалить сессию и отправить
+сообщение \"Вы сдались\""]
+	validate_guess [label="Попытка корректна?
+(длина, есть в словаре)" shape=diamond]
+	ignore_input [label="Проигнорировать ввод"]
+	add_guess [label="Добавить попытку в сессию"]
+	render_updated_board [label="Отрисовать обновленное поле
+с подсказками 🟩🟨⬜"]
+	check_win [label="Слово угадано?" shape=diamond]
+	win [label="Удалить сессию, начислить очки (БД)
+и отправить \"ПОБЕДА!\""]
+	check_attempts [label="Попытки закончились? (>=6)" shape=diamond]
+	lose [label="Удалить сессию
+и отправить \"ПОРАЖЕНИЕ\""]
+	edit_message [label="Отредактировать сообщение,
+показав обновленное поле"]
+	start -> user_action
+	user_action -> check_session
+	check_session -> session_exists [label="Да"]
+	session_exists -> end
+	check_session -> get_word [label="Нет"]
+	get_word -> create_session
+	create_session -> send_board
+	send_board -> wait_for_input
+	wait_for_input -> check_input_type
+	check_input_type -> give_up [label="Нет (нажал \"Сдаться\")"]
+	give_up -> end
+	check_input_type -> validate_guess [label="Да"]
+	validate_guess -> ignore_input [label="Нет"]
+	ignore_input -> wait_for_input
+	validate_guess -> add_guess [label="Да"]
+	add_guess -> render_updated_board
+	render_updated_board -> check_win
+	check_win -> win [label="Да"]
+	win -> end
+	check_win -> check_attempts [label="Нет"]
+	check_attempts -> lose [label="Да"]
+	lose -> end
+	check_attempts -> edit_message [label="Нет"]
+	edit_message -> wait_for_input
+}

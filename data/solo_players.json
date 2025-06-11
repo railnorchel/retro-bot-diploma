@@ -1,0 +1,113 @@
+{
+  "1": [
+    {
+      "canonical_name": "messi",
+      "aliases": ["месси"],
+      "photo_file": "messi.jpg",
+      "position": "Нападающий",
+      "nationality": "Аргентина"
+    },
+    {
+      "canonical_name": "ronaldo",
+      "aliases": ["роналду"],
+      "photo_file": "ronaldo.jpg",
+      "position": "Нападающий",
+      "nationality": "Португалия"
+    },
+    {
+      "canonical_name": "neymar",
+      "aliases": ["неймар"],
+      "photo_file": "neymar.jpg",
+      "position": "Нападающий",
+      "nationality": "Бразилия"
+    },
+    {
+      "canonical_name": "mbappe",
+      "aliases": ["мбаппе", "мбаппэ"],
+      "photo_file": "mbappe.jpg",
+      "position": "Нападающий",
+      "nationality": "Франция"
+    },
+    {
+      "canonical_name": "lewandowski",
+      "aliases": ["левандовски", "левандовский"],
+      "photo_file": "levandowski.jpg",
+      "position": "Нападающий",
+      "nationality": "Польша"
+    }
+  ],
+  "2": [
+    {
+      "canonical_name": "de bruyne",
+      "aliases": ["де брёйне", "де брюйне", "де брейне"],
+      "photo_file": "debruyne.jpg",
+      "position": "Полузащитник",
+      "nationality": "Бельгия"
+    },
+    {
+      "canonical_name": "griezmann",
+      "aliases": ["гризманн"],
+      "photo_file": "griezmann.jpg",
+      "position": "Нападающий",
+      "nationality": "Франция"
+    },
+    {
+      "canonical_name": "modric",
+      "aliases": ["модрич"],
+      "photo_file": "modric.jpg",
+      "position": "Полузащитник",
+      "nationality": "Хорватия"
+    },
+    {
+      "canonical_name": "kante",
+      "aliases": ["канте"],
+      "photo_file": "kante.jpg",
+      "position": "Опорный полузащитник",
+      "nationality": "Франция"
+    },
+    {
+      "canonical_name": "coutinho",
+      "aliases": ["коутиньо"],
+      "photo_file": "coutinho.jpg",
+      "position": "Полузащитник",
+      "nationality": "Бразилия"
+    }
+  ],
+  "3": [
+    {
+      "canonical_name": "henry",
+      "aliases": ["анри"],
+      "photo_file": "henry.jpg",
+      "position": "Нападающий",
+      "nationality": "Франция"
+    },
+    {
+      "canonical_name": "rivaldo",
+      "aliases": ["ривалдо"],
+      "photo_file": "rivaldo.jpg",
+      "position": "Полузащитник",
+      "nationality": "Бразилия"
+    },
+    {
+      "canonical_name": "forlan",
+      "aliases": ["форлан"],
+      "photo_file": "forlan.jpg",
+      "position": "Нападающий",
+      "nationality": "Уругвай"
+    },
+    {
+      "canonical_name": "balotelli",
+      "aliases": ["балотелли"],
+      "photo_file": "balotelli.jpg",
+      "position": "Нападающий",
+      "nationality": "Италия"
+    },
+    {
+      "canonical_name": "pepe",
+      "aliases": ["пепе"],
+      "photo_file": "pepe.jpg",
+      "position": "Защитник",
+      "nationality": "Португалия"
+    }
+  ]
+}
